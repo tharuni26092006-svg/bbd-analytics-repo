@@ -1,4 +1,4 @@
--- Business question: Which products are High, Medium or Low contributors to revenue?
+--  Product contribution tiers
 SELECT o.item,
        SUM(o.amount) AS total_revenue,
        CASE WHEN SUM(o.amount) >= 60000 THEN 'High'
