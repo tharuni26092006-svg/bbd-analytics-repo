@@ -1,4 +1,4 @@
--- Business question: Which products are strong sellers (revenue above 20000)?
+-- Strong products
 SELECT o.item,
        COUNT(o.order_id) AS number_of_orders,
        SUM(o.amount)     AS revenue
