@@ -1,4 +1,4 @@
--- Business question: How did each region perform month by month on completed orders?
+-- Region and month report
 -- Join type: INNER JOIN, because only customers who have orders can contribute to a region-month
 -- revenue row; a LEFT JOIN would add never-ordered customers with no month and empty groups.
 -- COUNT(DISTINCT) is necessary because one customer can place several orders in a month, so
