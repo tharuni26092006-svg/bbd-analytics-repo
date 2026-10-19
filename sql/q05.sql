@@ -1,4 +1,4 @@
--- Business question: What are the headline KPIs over completed orders?
+-- Headline KPIs
 SELECT COUNT(o.order_id) AS total_orders,
        SUM(o.amount)     AS total_revenue,
        AVG(o.amount)     AS avg_order_value,
