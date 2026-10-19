@@ -1,4 +1,4 @@
--- Business question: How many orders and how much value sit in each status?
+-- Orders by status
 SELECT o.status,
        COUNT(o.order_id) AS number_of_orders,
        SUM(o.amount)     AS total_amount
