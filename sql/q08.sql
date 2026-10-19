@@ -1,4 +1,4 @@
--- Business question: What does the customer base look like in each region?
+-- Customer profile by region
 SELECT c.region,
        COUNT(c.customer_id) AS number_of_customers,
        AVG(c.age)           AS average_age,
