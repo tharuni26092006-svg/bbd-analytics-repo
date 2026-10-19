@@ -1,4 +1,4 @@
--- Business question: Which customers aged 25-40 in North or West form the target segment?
+-- Target customer segment
 SELECT c.customer_id, c.first_name, c.last_name, c.region, c.age
 FROM customers c
 WHERE c.region IN ('North', 'West')
