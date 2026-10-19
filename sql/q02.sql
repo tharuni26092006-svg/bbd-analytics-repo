@@ -1,4 +1,4 @@
--- Business question: Which orders have a missing (NULL) amount?
+-- Missing amounts
 SELECT o.order_id, o.customer_id, o.item, o.status
 FROM orders o
 WHERE o.amount IS NULL
