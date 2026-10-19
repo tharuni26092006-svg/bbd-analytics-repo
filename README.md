@@ -6,7 +6,7 @@ A traceable analytics pipeline on the Flipkart Big Billion Days (BBD) sale datas
 
 - **SQL compiler and dialect:** SQLite (run through Python's built-in `sqlite3`). The queries use only standard syntax and also run on MySQL and PostgreSQL.
 - **Spreadsheet tool:** Google Sheets formulas (`PROPER`, `TRIM`, `VLOOKUP`, `XLOOKUP`; also valid in Excel 365).
-- **Tableau Public:** Not used. The dashboard is written as a specification in `docs/dashboard_spec.md`, with every number computed from the spreadsheet layer, as the brief allows.
+- **Tableau Public:** Not used. I wrote the dashboard as a specification in `docs/dashboard_spec.md`, as the brief allows, with every number taken from my spreadsheet pivots.
 
 ## Key findings
 
