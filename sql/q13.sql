@@ -1,4 +1,4 @@
--- Business question: Did each rep hit their monthly target?
+-- Rep performance against target
 -- Tier is computed from the aggregate expression itself (no alias reuse, no WHERE on aggregates).
 SELECT r.rep_name, o.order_month, r.monthly_target,
        SUM(o.amount) AS revenue,
